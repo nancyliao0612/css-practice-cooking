@@ -332,6 +332,12 @@
 
 .eventMedia__1 {
   position: relative;
+  flex: 2;
+}
+
+.eventMedia__2 {
+  position: relative;
+  flex: 1;
 }
 
 .eventMedia__1__playButton {

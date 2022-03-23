@@ -4,6 +4,10 @@
   padding: 2rem 0;
 }
 
+.logo {
+  width: 150px;
+}
+
 .nav__icon,
 .nav__close,
 .nav__bgOverlay {
@@ -150,7 +154,7 @@ footer {
 }
 
 .footer__logo {
-  width: 150px;
+  width: 200px;
   margin-bottom: 2rem;
 }
 
