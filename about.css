@@ -1,0 +1,52 @@
+/* Our Story Styles */
+.ourStory__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.ourStory__image {
+  margin-bottom: 2rem;
+}
+.ourStory__title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-family: 600;
+  color: var(--black-1);
+}
+.ourStory__subtitle {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: var(--black-1);
+}
+.ourStory__text {
+  font-size: 1.4rem;
+  line-height: 1.4em;
+  color: var(--black-2);
+}
+@media screen and (min-width: 768px) {
+  .ourStory__wrapper {
+    flex-direction: row;
+    align-items: center;
+  }
+  .ourStory__image {
+    flex: 1;
+    margin-right: 3rem;
+  }
+  .ourStory__info {
+    flex: 1;
+  }
+  .ourStory__title {
+    font-size: 3.6rem;
+  }
+  .ourStory__subtitle {
+    font-size: 1.8rem;
+  }
+  .ourStory__text {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .ourStory__wrapper {
+    align-items: flex-start;
+  }
+}
