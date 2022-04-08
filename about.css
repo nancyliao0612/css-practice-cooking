@@ -5,11 +5,12 @@
 }
 .ourStory__image {
   margin-bottom: 2rem;
+  height: 500px;
 }
 .ourStory__title {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  font-family: 600;
+  font-weight: 600;
   color: var(--black-1);
 }
 .ourStory__subtitle {
@@ -20,7 +21,7 @@
 }
 .ourStory__text {
   font-size: 1.4rem;
-  line-height: 1.4em;
+  line-height: 1.7em;
   color: var(--black-2);
 }
 @media screen and (min-width: 768px) {
@@ -37,6 +38,7 @@
   }
   .ourStory__title {
     font-size: 3.6rem;
+    margin-bottom: 2rem;
   }
   .ourStory__subtitle {
     font-size: 1.8rem;
@@ -48,5 +50,54 @@
 @media screen and (min-width: 1000px) {
   .ourStory__wrapper {
     align-items: flex-start;
+  }
+}
+
+/* Our Goals Styles */
+.ourGoals__info {
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+.ourGoals__title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: var(--black-1);
+}
+.ourGoals__text {
+  font-size: 1.4rem;
+  line-height: 1.7em;
+  color: var(--black-2);
+}
+.ourGoals_images_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.ourGoals_images_wrapper img {
+  object-fit: cover;
+}
+.ourGoals_img1 {
+  grid-row: 1 / 3;
+}
+
+@media screen and (min-width: 768px) {
+  .ourGoals__title {
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+  }
+  .ourGoals__text {
+    font-size: 1.8rem;
+  }
+  .ourGoals__info {
+    text-align: center;
+    max-width: 800px;
+  }
+  .ourGoals_images_wrapper {
+    grid-gap: 2rem;
   }
 }
